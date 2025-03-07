@@ -33,6 +33,7 @@ function sine(value) {
     return Math.sin(radians);
 }
 
+
 // TODO: Implement cosine function
 function cosine(value) {
     // return the cosine of the value
