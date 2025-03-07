@@ -4,6 +4,10 @@
 function calculateSquareRoot(value) {
     
     // return the square root of the value
+    if (value < 0) {
+        throw new Error("Cannot calculate the square root of a negative number.");
+    }
+    return Math.sqrt(value);
 }
 
 // TODO: Implement square function
