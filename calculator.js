@@ -33,7 +33,10 @@ function naturalLog(value) {
 // TODO: Implement sine function
 function sine(value) {
     // return the sine of the value
+    var radians = value * Math.PI / 180;
+    return Math.sin(radians);
 }
+
 
 // TODO: Implement cosine function
 function cosine(value) {
